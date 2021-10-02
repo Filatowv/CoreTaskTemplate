@@ -28,6 +28,6 @@ public class Main {
         users.forEach(x -> System.out.println(x.toString()));
 
         userService.cleanUsersTable();
-        userService.dropUsersTable();
+//        userService.dropUsersTable();
     }
 }
